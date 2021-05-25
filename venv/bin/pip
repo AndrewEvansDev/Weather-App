@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/andrew/Documents/Dev Files/FSDI-110/Flasky/venv/bin/python3" "$0" "$@"
+'''exec' "/Users/andrew/Documents/Dev Files/FSDI-110/Weather-App/venv/bin/python3" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

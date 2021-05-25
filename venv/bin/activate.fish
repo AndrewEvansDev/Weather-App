@@ -29,7 +29,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/andrew/Documents/Dev Files/FSDI-110/Flasky/venv"
+set -gx VIRTUAL_ENV "/Users/andrew/Documents/Dev Files/FSDI-110/Weather-App/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

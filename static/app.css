@@ -1,3 +1,57 @@
-h1 {
-    color: pink;
+:root {
+    --bg-color--: #f3ed85;
+    --hi-light--: #ffa910;
+    --contrast--: #4d698c;
+    --shading---: #94d2ee;
+    --alt-cont--: #e45f5f;
+}
+
+body {
+    background-color: var(--bg-color--);
+}
+
+.nbcust,
+.nbcust a,
+.nbcust span {
+    background-color: var(--alt-cont--) !important;
+    color: white!important;
+    font-weight: 700;
+}
+
+span.weather-desc {
+    text-transform: capitalize;
+}
+
+#map {
+    height: 100%;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#floating-panel {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -180px;
+    width: 350px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+#latlng {
+    width: 225px;
 }
