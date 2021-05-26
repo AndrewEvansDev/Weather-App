@@ -22,36 +22,33 @@ span.weather-desc {
     text-transform: capitalize;
 }
 
-#map {
-    height: 100%;
-}
-
-#floating-panel {
-    position: absolute;
-    top: 10px;
-    left: 25%;
-    z-index: 5;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px solid #999;
+div.weather-wrap {
     text-align: center;
-    font-family: "Roboto", "sans-serif";
-    line-height: 30px;
-    padding-left: 10px;
+    padding-top: 0;
 }
 
-#floating-panel {
-    position: absolute;
-    top: 5px;
-    left: 50%;
-    margin-left: -180px;
-    width: 350px;
-    z-index: 5;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px solid #999;
+div#location-header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
 }
 
-#latlng {
-    width: 225px;
+.location-icon i {
+    color: var(--contrast--);
+    padding-right: 1rem;
+}
+
+div.index-wrap {
+    background-color: var(--shading---);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+span.index-temp {
+    color: var(--alt-cont--);
 }
