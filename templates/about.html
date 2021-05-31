@@ -1,5 +1,17 @@
 {% extends 'base.html' %} {% block title %}About{% endblock title %} {% block content %}
-
-<h1>About Andrew Evans</h1>
+<div class="about-wrap container-fluid">
+    <div class="about-heading-wrap">
+    <h1 class="about-me-name">Andrew Evans</h1>
+    <p class="about-me-title"><em>Full Stack Developer</em></p>
+    </div>
+<div class="about-media-wrap">
+<img class="about-pic-andrew" src="/static/andrewspic.jpg">
+<iframe width="350" height="315" src="https://www.youtube.com/embed/HluANRwPyNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
 
 {% endblock content %}
+
+{% block script %}
+<script src="/static/about.js"></script>
+{% endblock script %}

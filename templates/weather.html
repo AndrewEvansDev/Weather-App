@@ -1,11 +1,15 @@
-{% extends 'base.html' %} {% block title %}Weather{% endblock title %} {% block content %}
+{% extends 'base.html' %} 
+{% block title %}Forecast{% endblock title %} 
+
+{% block content %}
 
 <div class="forecast-wrap">
-    <ul id="forecast-wrap">
+    <div id="forecast-wrap">
 
-    </ul>
+    </div>
 </div>
-<!-- expanded weather -->
-{% endblock content %} {% block script %}
+{% endblock content %} 
+
+{% block script %}
 <script src="/static/forecast.js"></script>
 {% endblock script %}

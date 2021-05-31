@@ -9,8 +9,10 @@ api_key2 = "7b30caac8f2413b21398febc12fb8d68"
 
 
 @app.route('/')
+@app.route('/today')
 @app.route('/home')
-def home():
+@app.route('/index')
+def today():
     return render_template("index.html")
 
 
@@ -19,8 +21,8 @@ def about():
     return render_template("about.html")
 
 
-@app.route('/weather')
-def weather():
+@app.route('/forecast')
+def forecast():
     return render_template("weather.html")
 
 @app.route('/api/weather', methods=["POST"])
